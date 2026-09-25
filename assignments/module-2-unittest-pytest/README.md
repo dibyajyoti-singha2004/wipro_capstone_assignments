@@ -24,3 +24,15 @@ Covers Unittest, PyTest, fixtures, data-driven testing, and Page Object Model.
 ![Assignment 7 Browser](screenshots/assignment7_browser.png)
 
 </details>
+<details>
+<summary>Assignment 8 — Data-Driven Automation</summary>
+
+**Terminal Output:**
+
+![Assignment 8 Terminal](screenshots/assignment8_terminal.png)
+
+**Browser Output:**
+
+![Assignment 8 Browser](screenshots/assignment8_browser.png)
+
+</details>
