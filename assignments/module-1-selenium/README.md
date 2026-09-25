@@ -1,5 +1,4 @@
 # Module 1: Selenium Automation
-
 ## 📄 Assignments
 - Assignment 1: Multi-Locator Challenge
 - Assignment 2: Explicit Waits
