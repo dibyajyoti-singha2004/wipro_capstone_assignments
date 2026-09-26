@@ -31,7 +31,7 @@ Course completion certificates earned during the Wipro Python Automation trainin
 ### 3. Test Automation with Playwright (Python) & Robot Framework
 - **Provider:** Coursera
 - **Dates:** September 21–25, 2026
-- **Certificate:** [test_automation_with_playwright_(Python)_&_Robot_Framework.pdf](test_automation_with_playwright_(Python)_&_Robot_Framework.pdf)
+- **Certificate:** [test_automation_with_playwright_(Python)_&_Robot_Framework.pdf](test_automation_with_playwright_(Python)_&_robot_framework.pdf)
 - **Verify:** [Coursera Verification Link](https://coursera.org/share/20b0ad6a6df0c20de3688df6c36cf870)
 
 ---
