@@ -33,6 +33,18 @@ Complete **API Automation Framework** built with Python Requests + Behave BDD + 
 
 ---
 
+## 🎓 Certificates
+
+| # | Certificate | Provider | Date |
+|:-:|-------------|----------|------|
+| 1 | Python for Automation | Madecraft | September 2026 |
+| 2 | Selenium WebDriver with Python | Whizlabs | September 2026 |
+| 3 | Test Automation with Playwright (Python) & Robot Framework | Coursera | September 2026 |
+
+📂 **[View Certificates →](certificates/)**
+
+---
+
 ## 🛠 Tech Stack
 
 | Category | Tools |
