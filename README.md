@@ -29,7 +29,11 @@ Assignments and capstone project for the Wipro Python Automation training progra
 
 Complete **API Automation Framework** built with Python Requests + Behave BDD + Allure reporting.
 
-📂 **[View Capstone Project →](capstone-project/)**
+| Resource | Link |
+|----------|:----:|
+| 📂 Source Code & README | [→ Open](capstone-project/) |
+| 📄 Project Report | [→ Open](capstone-project/REPORT.md) |
+| 📊 Allure Report | [→ View](capstone-project/Output/03-allure-report.png) |
 
 ---
 
