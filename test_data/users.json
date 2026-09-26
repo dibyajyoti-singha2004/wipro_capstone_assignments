@@ -1,0 +1,18 @@
+{
+  "list_users_expected_count": 10,
+  "single_user_id": 1,
+  "create_user": {
+    "name": "Test User",
+    "email": "test@example.com"
+  },
+  "update_user": {
+    "id": 1,
+    "name": "Updated Name",
+    "email": "updated@example.com"
+  },
+  "patch_user": {
+    "id": 1,
+    "email": "patch@example.com"
+  },
+  "delete_user_id": 1
+}
