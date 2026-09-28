@@ -35,7 +35,7 @@
 
 ## 1. Abstract
 
-This report presents a complete API Automation Framework built using Python's `requests` library and the Behave BDD framework. The framework validates the User Management APIs of two public REST services — JSONPlaceholder and reqres.in — covering CRUD operations, authentication flows, error handling, and pagination. All 11 test scenarios pass successfully with 100% pass rate, and interactive reports are generated using Behave HTML and Allure reporting. The framework follows a layered architecture with clear separation between configuration, framework utilities, feature files, and test data, making it maintainable, scalable, and reusable.
+This report presents a complete API Automation Framework built using Python's `requests` library and the Behave BDD framework. The framework validates the User Management APIs of two public REST services — JSONPlaceholder and reqres.in — covering CRUD operations, authentication flows, error handling, and pagination. All 11 test scenarios pass successfully with a 100% pass rate, and interactive reports are generated using Behave HTML and Allure reporting.
 
 ---
 
@@ -56,11 +56,11 @@ Behavior-Driven Development (BDD) is used to write test scenarios in plain Engli
 
 Manual API testing is slow, error-prone, and doesn't scale. As the number of endpoints grows, verifying each request-response cycle manually becomes impractical. A structured automation framework is required to:
 
-1. Reusably test REST endpoints (GET, POST, PUT, PATCH, DELETE)
-2. Handle authentication flows (register, login, error responses)
-3. Validate response status codes, headers, and body content
-4. Generate readable reports for test results
-5. Be maintainable so new tests can be added without rewriting existing code
+- Reusably test REST endpoints (GET, POST, PUT, PATCH, DELETE)
+- Handle authentication flows (register, login, error responses)
+- Validate response status codes, headers, and body content
+- Generate readable reports for test results
+- Be maintainable so new tests can be added without rewriting existing code
 
 ---
 
@@ -165,8 +165,7 @@ capstone-project/
 ├── .gitignore
 ├── behave.ini
 ├── requirements.txt
-├── README.md
-└── REPORT.md                       # This document
+└── README.md
 ```
 
 ---
@@ -213,8 +212,6 @@ Scenario: Create a new user
     And the response should contain the created user details
 ```
 
-Each scenario is a full test case; steps are mapped to Python functions in step definitions.
-
 ### 8.4 Step Definitions
 
 Step definitions link Gherkin text to Python functions using decorators:
@@ -225,8 +222,6 @@ def step_create_user(context, name, email):
     client = APIClient(JSONPLACEHOLDER_URL)
     context.response = client.post("/users", json={"name": name, "email": email})
 ```
-
-Parameter parsing is handled by Behave — the `{name}` and `{email}` are extracted from the step text.
 
 ### 8.5 Behave Hooks (features/environment.py)
 
@@ -322,19 +317,19 @@ Took 0min 11.002s
 
 ### 10.1 Terminal Output
 
-![Terminal](Output/01-terminal.png)
+![Terminal](capstone-project/Output/01-terminal.png)
 
 ### 10.2 Behave HTML Report — Top
 
-![HTML Report Top](Output/02-html-report1.png)
+![HTML Report Top](capstone-project/Output/02-html-report1.png)
 
 ### 10.3 Behave HTML Report — Bottom
 
-![HTML Report Bottom](Output/02-html-report2.png)
+![HTML Report Bottom](capstone-project/Output/02-html-report2.png)
 
 ### 10.4 Allure Report
 
-![Allure Report](Output/03-allure-report.png)
+![Allure Report](capstone-project/Output/03-allure-report.png)
 
 ---
 
@@ -351,15 +346,13 @@ Key outcomes:
 - **Structured logging** — every request is logged to a file for debugging
 - **Professional reporting** — Behave HTML and interactive Allure reports
 
-The framework is a **real-world example** of how API testing should be structured in production systems. It can be extended easily — new scenarios only require adding a feature file and, if needed, one step definition.
-
 This project shows proficiency in:
 
 - Python 3
 - REST API testing
 - BDD with Behave
 - Test framework design
-- Reporting tools (Allure, pytest-html equivalents)
+- Reporting tools (Allure)
 - Git and GitHub
 
 ---
@@ -372,7 +365,6 @@ This project shows proficiency in:
 4. Allure Framework — https://docs.qameta.io/allure/
 5. JSONPlaceholder — https://jsonplaceholder.typicode.com/
 6. reqres.in — https://reqres.in/
-7. REST API testing best practices — https://www.postman.com/api-platform/api-testing/
 
 ---
 
