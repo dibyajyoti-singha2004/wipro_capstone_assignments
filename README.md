@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🐍 Wipro Capstone — Python Automation
+# 🚀 Wipro Capstone — Python Automation
 
 **A complete showcase of Python automation skills — from Selenium to BDD, PyTest to Robot Framework.**
 
@@ -15,91 +15,89 @@
 
 ---
 
-## 📌 Overview
+## Overview
 
 This repository contains all deliverables from the **Wipro Python Automation Training Program**:
 
-- 🧪 **4 training modules** with hands-on assignments
-- 🚀 **Capstone project** — a complete API Automation Framework
-- 🎓 **3 course certificates** with verification links
+- **4 training modules** with hands-on assignments
+- **Capstone project** — a complete API Automation Framework
+- **3 course certificates** with verification links
 
 Every assignment includes source code, execution screenshots, and supporting documentation.
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
-| Icon | Folder | What's Inside |
-|:----:|--------|---------------|
-| 📚 | [`assignments/`](assignments/) | All 4 module assignments · code · videos · screenshots |
-| 🚀 | [`capstone-project/`](capstone-project/) | Complete API Automation Framework with Allure reporting |
-| 🎓 | [`certificates/`](certificates/) | Course completion certificates with verification links |
-| 📄 | [`REPORT.md`](REPORT.md) | Detailed capstone project report |
+| Folder | What's Inside |
+|--------|---------------|
+| [`assignments/`](assignments/) | All 4 module assignments · code · videos · screenshots |
+| [`capstone-project/`](capstone-project/) | Complete API Automation Framework with Allure reporting |
+| [`certificates/`](certificates/) | Course completion certificates with verification links |
+| [`REPORT.md`](REPORT.md) | Detailed capstone project report |
 
 ---
 
-## 📚 Training Modules
+## Training Modules
 
 | # | Module | Focus | Link |
 |:-:|--------|-------|:----:|
-| 1 | 🐍 **Selenium Automation** | Locators · Waits · Alerts · Web Tables · Iframes | [→ Explore](assignments/module-1-selenium/) |
-| 2 | 🧪 **Unit Test Frameworks** | Unittest · PyTest · DDT · POM · HTML Reports | [→ Explore](assignments/module-2-unittest-pytest/) |
-| 3 | 🥒 **BDD API Automation** | Behave · Gherkin · Data-Driven · POM + BDD | [→ Explore](assignments/module-3-bdd-api/) |
-| 4 | 🤖 **Robot Framework** | Syntax · Keywords · Tags · Setup/Teardown · Reports | [→ Explore](assignments/module-4-robot-framework/) |
+| 1 | **Selenium Automation** | Locators · Waits · Alerts · Web Tables · Iframes | [→ Explore](assignments/module-1-selenium/) |
+| 2 | **Unit Test Frameworks** | Unittest · PyTest · DDT · POM · HTML Reports | [→ Explore](assignments/module-2-unittest-pytest/) |
+| 3 | **BDD API Automation** | Behave · Gherkin · Data-Driven · POM + BDD | [→ Explore](assignments/module-3-bdd-api/) |
+| 4 | **Robot Framework** | Syntax · Keywords · Tags · Setup/Teardown · Reports | [→ Explore](assignments/module-4-robot-framework/) |
 
 ---
 
-## 🚀 Capstone Project
+## Capstone Project
 
 > **API Automation Framework** — built with Python Requests, Behave BDD, and Allure Reporting.
 
-### 📊 Quick Stats
+### Quick Stats
 
 | Metric | Value |
 |:------:|:-----:|
 | Features | **2** |
 | Scenarios | **11** |
 | Steps | **32** |
-| Pass Rate | **100% ✅** |
+| Pass Rate | **100%** |
 | APIs Tested | JSONPlaceholder · reqres.in |
 
-### 🔗 Resources
+### Resources
 
 | Resource | Link |
 |----------|:----:|
-| 📂 Source Code + README | [→ Open](capstone-project/) |
-| 📄 Project Report | [→ Read](REPORT.md) |
-| 📊 Allure Report | [→ View](capstone-project/Output/03-allure-report.png) |
-| 🖥️ Terminal Output | [→ View](capstone-project/Output/01-terminal.png) |
+| Source Code + README | [→ Open](capstone-project/) |
+| Project Report | [→ Read](REPORT.md) |
+| Allure Report | [→ View](capstone-project/Output/03-allure-report.png) |
+| Terminal Output | [→ View](capstone-project/Output/01-terminal.png) |
 
-### 🛠️ Architecture
+### Architecture
 
 | Layer | Component | Responsibility |
 |:-----:|-----------|----------------|
-| 1️⃣ | **Feature Files** (`.feature`) | Business-readable Gherkin scenarios |
-| 2️⃣ | **Step Definitions** (`steps/*.py`) | Python glue code for HTTP calls |
-| 3️⃣ | **Framework Layer** (`api_client.py`, `logger.py`) | Reusable HTTP client + logging |
-| 4️⃣ | **Config + Test Data** (`config/`, `test_data/`) | Externalized environment + inputs |
+| 1 | **Feature Files** (`.feature`) | Business-readable Gherkin scenarios |
+| 2 | **Step Definitions** (`steps/*.py`) | Python glue code for HTTP calls |
+| 3 | **Framework Layer** (`api_client.py`, `logger.py`) | Reusable HTTP client + logging |
+| 4 | **Config + Test Data** (`config/`, `test_data/`) | Externalized environment + inputs |
 
 Each layer has a single responsibility — changes in one layer don't break the others.
 
 ---
 
-## 🎓 Certificates
+## Certificates
 
-| # | 🏆 Certificate | Provider | Date | Verify |
-|:-:|----------------|----------|:----:|:------:|
-| 1 | Python for Automation | Madecraft | Sep 2026 | [🔗](certificates/) |
-| 2 | Selenium WebDriver with Python | Whizlabs | Sep 2026 | [🔗](certificates/) |
-| 3 | Test Automation with Playwright & Robot Framework | Coursera | Sep 2026 | [🔗](certificates/) |
+| # | Certificate | Provider | Date | Verify |
+|:-:|-------------|----------|:----:|:------:|
+| 1 | Python for Automation | Madecraft | Sep 2026 | [→ View](certificates/) |
+| 2 | Selenium WebDriver with Python | Whizlabs | Sep 2026 | [→ View](certificates/) |
+| 3 | Test Automation with Playwright & Robot Framework | Coursera | Sep 2026 | [→ View](certificates/) |
 
-📂 **[View all certificates →](certificates/)**
+**[View all certificates →](certificates/)**
 
 ---
 
-## 🛠️ Tech Stack
-
-<div align="center">
+## Tech Stack
 
 | Category | Tools |
 |----------|-------|
@@ -112,8 +110,10 @@ Each layer has a single responsibility — changes in one layer don't break the 
 | **Reporting** | pytest-html · Behave HTML · Allure |
 | **Version Control** | Git · GitHub |
 
-</div>
+---
 
+<div align="center">
 
+**Built during Wipro Python Automation Training**
 
 </div>
