@@ -322,19 +322,19 @@ Took 0min 11.002s
 
 ### 10.1 Terminal Output
 
-![Terminal](../Output/01-terminal.png)
+![Terminal](Output/01-terminal.png)
 
 ### 10.2 Behave HTML Report — Top
 
-![HTML Report Top](../Output/02-html-report1.png)
+![HTML Report Top](Output/02-html-report1.png)
 
 ### 10.3 Behave HTML Report — Bottom
 
-![HTML Report Bottom](../Output/02-html-report2.png)
+![HTML Report Bottom](Output/02-html-report2.png)
 
 ### 10.4 Allure Report
 
-![Allure Report](../Output/03-allure-report.png)
+![Allure Report](Output/03-allure-report.png)
 
 ---
 
