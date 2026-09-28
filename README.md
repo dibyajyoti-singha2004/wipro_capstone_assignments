@@ -110,10 +110,6 @@ Each layer has a single responsibility — changes in one layer don't break the 
 | **Reporting** | pytest-html · Behave HTML · Allure |
 | **Version Control** | Git · GitHub |
 
----
 
-<div align="center">
-
-**Built during Wipro Python Automation Training**
 
 </div>
