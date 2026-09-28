@@ -118,7 +118,7 @@ Each layer has a single responsibility — changes in one layer don't break the 
 
 <div align="center">
 
-**⭐ Star this repo if you found it useful!**
+
 
 Made with 🐍 and ☕ during Wipro Python Automation Training
 
