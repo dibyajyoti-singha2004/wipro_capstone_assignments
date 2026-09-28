@@ -114,12 +114,6 @@ Each layer has a single responsibility — changes in one layer don't break the 
 
 </div>
 
----
 
-<div align="center">
-
-
-
-Made with 🐍 and ☕ during Wipro Python Automation Training
 
 </div>
