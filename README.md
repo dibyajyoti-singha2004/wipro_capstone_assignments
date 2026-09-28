@@ -84,14 +84,13 @@ Every assignment includes source code, execution screenshots, and supporting doc
 Each layer has a single responsibility — changes in one layer don't break the others.
 
 ---
-
 ## Certificates
 
 | # | Certificate | Provider | Date | Verify |
 |:-:|-------------|----------|:----:|:------:|
-| 1 | Python for Automation | Madecraft | Sep 2026 | [→ View](certificates/) |
-| 2 | Selenium WebDriver with Python | Whizlabs | Sep 2026 | [→ View](certificates/) |
-| 3 | Test Automation with Playwright & Robot Framework | Coursera | Sep 2026 | [→ View](certificates/) |
+| 1 | Python for Automation | Madecraft | Sep 2026 | [Verify](https://coursera.org/share/dd473a27259bf0f7288a6b2033cf0339) |
+| 2 | Selenium WebDriver with Python | Whizlabs | Sep 2026 | [Verify](https://coursera.org/share/507881b8275759045c7b5a0f2fd27d9b) |
+| 3 | Test Automation with Playwright & Robot Framework | Coursera | Sep 2026 | [Verify](https://coursera.org/share/20b0ad6a6df0c20de3688df6c36cf870) |
 
 **[View all certificates →](certificates/)**
 
